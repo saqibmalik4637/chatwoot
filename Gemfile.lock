@@ -924,6 +924,7 @@ DEPENDENCIES
   rubocop-performance
   rubocop-rails
   rubocop-rspec
+  ruby-vips
   scout_apm
   scss_lint
   seed_dump

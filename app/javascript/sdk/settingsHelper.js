@@ -1,7 +1,7 @@
 import { BUBBLE_DESIGN, DARK_MODE, WIDGET_DESIGN } from './constants';
 
 export const getBubbleView = type =>
-  BUBBLE_DESIGN.includes(type) ? type : BUBBLE_DESIGN[0];
+  BUBBLE_DESIGN.includes(type) ? type : BUBBLE_DESIGN[1];
 
 export const isExpandedView = type => getBubbleView(type) === BUBBLE_DESIGN[1];
 

@@ -4,17 +4,6 @@
     :class="$dm('bg-white', 'dark:bg-slate-900')"
   >
     <div class="flex items-center">
-      <button
-        v-if="showBackButton"
-        class="-ml-3 px-2"
-        @click="onBackButtonClick"
-      >
-        <fluent-icon
-          icon="chevron-left"
-          size="24"
-          :class="$dm('text-black-900', 'dark:text-slate-50')"
-        />
-      </button>
       <img
         v-if="avatarUrl"
         class="h-8 w-8 rounded-full mr-3"

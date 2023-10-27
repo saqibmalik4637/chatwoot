@@ -176,6 +176,8 @@ gem 'reverse_markdown'
 # Sentiment analysis
 gem 'informers'
 
+gem "ruby-vips"
+
 ### Gems required only in specific deployment environments ###
 ##############################################################
 
