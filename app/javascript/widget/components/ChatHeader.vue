@@ -6,7 +6,7 @@
     <div class="flex items-center">
       <img
         v-if="avatarUrl"
-        class="h-8 w-8 rounded-full mr-3"
+        class="h-12 w-10 mr-3"
         :src="avatarUrl"
         alt="avatar"
       />
