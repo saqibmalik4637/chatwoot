@@ -12,7 +12,7 @@
       />
       <div>
         <div
-          class="font-medium text-base leading-4 flex items-center"
+          class="font-bold flex items-center text-2xl"
           :class="$dm('text-black-900', 'dark:text-slate-50')"
         >
           <span v-dompurify-html="title" class="mr-1" />
